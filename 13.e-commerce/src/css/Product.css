@@ -1,0 +1,48 @@
+.image{
+    padding: 5px;
+    border: 1px solid orange;
+    border-radius: 20px;
+    width: 180px;
+    height: 240px;
+}
+.kart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 420px;
+    box-shadow: 0px 0px 10px rgba(104, 154, 177, 0.62);
+    border: 1px solid rgba(72, 106, 122, 0.524);
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.kart:hover{
+    box-shadow: 0px 0px 15px rgba(64, 129, 159, 0.826);
+    transition: all .6s;
+    
+}
+.detail-button{
+    border: 1px solid rgba(0, 0, 0, 0.863);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(255, 170, 0, 0.863);
+    cursor: pointer;
+    font-size: 16px;
+}
+.prod-title{
+    text-align: center;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+    padding: 0px 5px;
+    text-align:  center;
+     height: 70px;
+     text-overflow: initial;
+     overflow: -moz-hidden-unscrollable;
+}
+.prod-price{
+    text-align: center;
+    margin-block-start: 10px;
+    margin-block-end: 15px;
+}
