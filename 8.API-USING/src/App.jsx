@@ -51,8 +51,8 @@ function App() {
   }
 
   useEffect(() => {
-    //getAllUsers;
-    //getUserByID(1);
+    // getAllUsers;
+    // getUserByID(1);
     //   const newUser = {
     //     "username": "Nilay",
     //     "password":"ÖCER"
