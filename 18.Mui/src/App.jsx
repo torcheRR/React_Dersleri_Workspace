@@ -18,6 +18,8 @@ import MuiAvatar from "./components/MuiAvatar";
 import MuiTooltip from "./components/MuiTooltip";
 import MuiAlert from "./components/MuiAlert";
 import MuiDialog from "./components/MuiDialog";
+import MuiSnackbar from "./components/MuiSnackbar";
+import MuiProgress from "./components/MuiProgress";
 
 function App() {
   return (
@@ -38,7 +40,9 @@ function App() {
     // <MuiAvatar></MuiAvatar>
     // <MuiTooltip></MuiTooltip>
     // <MuiAlert></MuiAlert>
-    <MuiDialog></MuiDialog>
+    // <MuiDialog></MuiDialog>
+    // <MuiSnackbar></MuiSnackbar>
+    <MuiProgress></MuiProgress>
   );
 }
 
