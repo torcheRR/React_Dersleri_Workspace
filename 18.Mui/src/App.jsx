@@ -9,6 +9,15 @@ import MuiBox from "./components/MuiBox";
 import MuiStack from "./components/MuiStack";
 import MuiGrid from "./components/MuiGrid";
 import MuiCard from "./components/MuiCard";
+import MuiAccordion from "./components/MuiAccordion";
+import MuiAppbar from "./components/MuiAppbar";
+import MuiImageList from "./components/MuiImageList";
+import MuiDrawer from "./components/MuiDrawer";
+import MuiBadge from "./components/MuiBadge";
+import MuiAvatar from "./components/MuiAvatar";
+import MuiTooltip from "./components/MuiTooltip";
+import MuiAlert from "./components/MuiAlert";
+import MuiDialog from "./components/MuiDialog";
 
 function App() {
   return (
@@ -20,7 +29,16 @@ function App() {
     // <MuiBox></MuiBox>
     // <MuiStack></MuiStack>
     // <MuiGrid></MuiGrid>
-    <MuiCard></MuiCard>
+    // <MuiCard></MuiCard>
+    // <MuiAccordion></MuiAccordion>
+    // <MuiAppbar></MuiAppbar>
+    // <MuiImageList></MuiImageList>
+    // <MuiDrawer></MuiDrawer>
+    // <MuiBadge></MuiBadge>
+    // <MuiAvatar></MuiAvatar>
+    // <MuiTooltip></MuiTooltip>
+    // <MuiAlert></MuiAlert>
+    <MuiDialog></MuiDialog>
   );
 }
 
