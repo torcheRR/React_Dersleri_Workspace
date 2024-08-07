@@ -22,6 +22,7 @@ import MuiSnackbar from "./components/MuiSnackbar";
 import MuiProgress from "./components/MuiProgress";
 import  Skeleton  from "@mui/material/Skeleton";
 import MuiSkeleton from "./components/MuiSkeleton";
+import MuiTable from "./components/MuiTable";
 
 function App() {
   return (
@@ -45,7 +46,8 @@ function App() {
     // <MuiDialog></MuiDialog>
     // <MuiSnackbar></MuiSnackbar>
     // <MuiProgress></MuiProgress>
-    <MuiSkeleton></MuiSkeleton>
+    // <MuiSkeleton></MuiSkeleton>
+    <MuiTable></MuiTable>
   );
 }
 
